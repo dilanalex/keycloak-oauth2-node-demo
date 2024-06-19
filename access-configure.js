@@ -2,9 +2,9 @@ const axios = require('axios');
 const qs = require('qs');
 
 // Keycloak configuration
-const realm = 'oauth2-demo';
-const clientId = 'demo-app-code-flow-client';
-const clientSecret = 'di6hYzMftFhb3wKlSNnjueoBihDYviMn';
+const realm = '<yor-real-id>';
+const clientId = '<your-client-id>';
+const clientSecret = '<your-client-secret>';
 const keycloakBaseUrl = 'http://localhost:8180';  // Adjust if necessary
 
 // Function to get access token

@@ -1,10 +1,10 @@
 {
-    "realm": "oauth2-demo",
+    "realm": "<yor-real-id>",
     "auth-server-url": "http://localhost:8180",
     "ssl-required": "external",
-    "resource": "demo-app-code-flow-client",
+    "resource": "<your-client-id>",
     "credentials": {
-      "secret": "di6hYzMftFhb3wKlSNnjueoBihDYviMn"
+      "secret": "<your-client-secret>"
     },
     "confidential-port": 0
   }
